@@ -1,15 +1,17 @@
 {
   "name": "block33",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon server.js",
-    "start": "node server.js"
+    "start":"node server.js",
+    "start:dev":"nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
     "express": "^4.21.2",
     "morgan": "^1.10.0",
@@ -17,6 +19,5 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
-  },
-  "description": ""
+  }
 }
